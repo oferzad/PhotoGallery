@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PhotoGallery.MainPage">
+
+    <StackLayout>
+        <Button x:Name="btnUp" Text="Up" Clicked="btnUp_Clicked"/>
+        <Image x:Name="img" Source=""/>
+        <Button x:Name="btnDown"  Text="Down" Clicked="btnDown_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
